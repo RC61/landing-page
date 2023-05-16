@@ -30,19 +30,39 @@ ul{
     border: 10px solid black;
     background-color: #1f2937;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right {
+    border: 5px dotted wheat;
+}
+
+.top-left {
+    border: 5px dotted rgb(218, 144, 180);
 }
 
 .upper-middle-wrapper {
     border: 10px solid rgb(46, 172, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lower-middle-wrapper {
     border: 10px solid firebrick;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom-wrapper {
     border: 10px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -56,5 +76,6 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 30px;
   
 }
