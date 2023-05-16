@@ -8,6 +8,10 @@ header {
     color: white;
     font-size: 36px;
     font-weight: 500;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 ul{
@@ -80,9 +84,16 @@ ul{
     align-items: center;
 }
 
+#pool {
+    width: 100px;
+    height: 100px;
+}
+
 .icon {
-    border: 3px solid blue;
+    border: 3px solid #3882f6;
     border-radius: 25px;
+    height: 100px;
+    width: 100px;
     margin: 5px;
     padding: 20px;
 }
@@ -125,6 +136,7 @@ ul{
     /* border: 10px solid yellow; */
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .banner-right {
@@ -139,7 +151,6 @@ footer {
     align-items: center;
     background-color: #1f2937;
     color: white;
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
