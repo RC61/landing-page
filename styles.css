@@ -1,0 +1,23 @@
+header {
+    border: 10px solid red;
+}
+
+.content-wrapper {
+    border: 10px dotted blue;
+}
+
+.top-wrapper {
+    border: 10px solid black;
+}
+
+.middle-wrapper {
+    border: 10px solid yellowgreen;
+}
+
+.bottom-wrapper {
+    border: 10px solid orange;
+}
+
+footer {
+    border: 10px solid purple;
+}
