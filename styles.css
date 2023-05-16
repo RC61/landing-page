@@ -27,11 +27,11 @@ ul{
 }
 
 .top-wrapper {
-    border: 10px solid black;
+    border: 10px solid yellowgreen;
     background-color: #1f2937;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -41,6 +41,11 @@ ul{
 
 .top-left {
     border: 5px dotted rgb(218, 144, 180);
+}
+
+.pool-icon {
+    width: 450px;
+    height: 350px;
 }
 
 .upper-middle-wrapper {
@@ -61,8 +66,14 @@ ul{
 .bottom-wrapper {
     border: 10px solid orange;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.bottom-quote {
+    display: flex;
+    inline-size: 400px;
 }
 
 footer {
