@@ -23,7 +23,7 @@ ul{
     padding-right: 40px;
     font-size: 18px;
     font-weight: 200;
-
+    list-style-type: none;
 }
 
 .content-wrapper-one {
@@ -187,6 +187,10 @@ ul{
     justify-content: flex-end;
     margin-top: -20px;
     padding-right: 160px;
+}
+
+#top-pic {
+    padding-top: 50px;
 }
 
 footer {
