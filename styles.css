@@ -109,7 +109,8 @@ ul{
 .lower-middle-quote {
     display: flex;
     flex-direction: column;
-    inline-size: 400px;
+    inline-size: 800px;
+    margin: 40px;
 }
 
 .bottom-wrapper {
@@ -146,7 +147,6 @@ ul{
 }
 
 #bottom-alert{
-    columns: white;
     background-color: #3882f6;
     color: white;
     border: 3px solid white;
@@ -159,6 +159,34 @@ ul{
 #bottom-alert:hover {
     background-color: tomato;
     color: white;
+}
+
+#top-alert{
+    background-color: #3882f6;
+    color: white;
+    border: 3px solid white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+#top-alert:hover {
+    background-color: tomato;
+    color: white;
+}
+
+#text-body{
+
+    font-size: 36px;
+
+}
+
+#quote-attribution{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    padding-right: 160px;
 }
 
 footer {
