@@ -66,13 +66,13 @@ ul{
 .bottom-wrapper {
     border: 10px solid orange;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.bottom-quote {
+.lower-middle-quote {
     display: flex;
+    flex-direction: column;
     inline-size: 400px;
 }
 
