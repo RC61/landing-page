@@ -1,17 +1,37 @@
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: 10px solid red;
+    padding-left: 100px;
 }
 
-.content-wrapper {
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.content-wrapper-one {
     border: 10px dotted blue;
+}
+.content-wrapper-two {
+    border: 10px dotted rgb(127, 200, 255);
 }
 
 .top-wrapper {
     border: 10px solid black;
 }
 
-.middle-wrapper {
-    border: 10px solid yellowgreen;
+.upper-middle-wrapper {
+    border: 10px solid rgb(46, 172, 160);
+}
+
+.lower-middle-wrapper {
+    border: 10px solid firebrick;
 }
 
 .bottom-wrapper {
